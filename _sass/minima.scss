@@ -13,7 +13,7 @@ $spacing-unit:     30px !default;
 
 $text-color:       blue !default;
 $background-color: magenta !default;
-$brand-color:      #2a7ae2 !default;
+$brand-color:      yellow !default;
 
 $grey-color:       red !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
@@ -289,5 +289,9 @@ header.site-header, footer {
     color: $link-on-dark !important;
     text-decoration: none;
   }
+}
+
+* {
+  border: solid 1px red !important;
 }
 
